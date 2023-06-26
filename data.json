@@ -1,0 +1,256 @@
+{
+  "level_1": {
+    "0": {
+      "available": "",
+      "half": 0
+    },
+    "1": {
+      "available": "",
+      "half": 11
+    },
+    "2": {
+      "available": "",
+      "half": 15
+    },
+    "3": {
+      "available": "",
+      "half": 15
+    },
+    "4": {
+      "available": "",
+      "half": 20
+    },
+    "5": {
+      "available": "",
+      "half": 16
+    },
+    "6": {
+      "available": "",
+      "half": 16
+    },
+    "7": {
+      "available": "",
+      "half": 21
+    },
+    "8": {
+      "available": "",
+      "half": 21
+    },
+    "9": {
+      "available": "",
+      "half": 17
+    },
+    "10": {
+      "available": "",
+      "half": 14
+    },
+    "11": {
+      "available": "",
+      "half": 14
+    },
+    "12": {
+      "available": "",
+      "half": 22
+    }
+  },
+  "level_2": {
+    "1": {
+      "available": "",
+      "half": 32
+    },
+    "2": {
+      "available": "",
+      "half": 14
+    },
+    "3": {
+      "available": "",
+      "half": 14
+    },
+    "4": {
+      "available": "",
+      "half": 16
+    },
+    "5": {
+      "available": "",
+      "half": 21
+    },
+    "6": {
+      "available": "",
+      "half": 14
+    },
+    "7": {
+      "available": "",
+      "half": 14
+    },
+    "8": {
+      "available": "",
+      "half": 13
+    },
+    "9": {
+      "available": "",
+      "half": 16
+    },
+    "10": {
+      "available": "",
+      "half": 14
+    },
+    "11": {
+      "available": "",
+      "half": 14
+    },
+    "12": {
+      "available": "",
+      "half": 23
+    }
+  },
+  "level_3": {
+    "1": {
+      "available": "",
+      "half": 15
+    },
+    "2": {
+      "available": "",
+      "half": 13
+    },
+    "3": {
+      "available": "",
+      "half": 13
+    },
+    "4": {
+      "available": "",
+      "half": 16
+    },
+    "5": {
+      "available": "",
+      "half": 15
+    },
+    "6": {
+      "available": "",
+      "half": 14
+    },
+    "7": {
+      "available": "",
+      "half": 14
+    },
+    "8": {
+      "available": "",
+      "half": 14
+    },
+    "9": {
+      "available": "",
+      "half": 14
+    },
+    "10": {
+      "available": "",
+      "half": 15
+    },
+    "11": {
+      "available": "",
+      "half": 14
+    },
+    "12": {
+      "available": "",
+      "half": 20
+    }
+  },
+  "level_4": {
+    "1": {
+      "available": "",
+      "half": 17
+    },
+    "2": {
+      "available": "",
+      "half": 14
+    },
+    "3": {
+      "available": "",
+      "half": 16
+    },
+    "4": {
+      "available": "",
+      "half": 16
+    },
+    "5": {
+      "available": "",
+      "half": 17
+    },
+    "6": {
+      "available": "",
+      "half": 14
+    },
+    "7": {
+      "available": "",
+      "half": 14
+    },
+    "8": {
+      "available": "",
+      "half": 14
+    },
+    "9": {
+      "available": "",
+      "half": 17
+    },
+    "10": {
+      "available": "",
+      "half": 14
+    },
+    "11": {
+      "available": "",
+      "half": 16
+    },
+    "12": {
+      "available": "",
+      "half": 20
+    }
+  },
+  "level_5": {
+    "1": {
+      "available": "",
+      "half": 19
+    },
+    "2": {
+      "available": "",
+      "half": 22
+    },
+    "3": {
+      "available": "",
+      "half": 19
+    },
+    "4": {
+      "available": "",
+      "half": 22
+    },
+    "5": {
+      "available": "",
+      "half": 24
+    },
+    "6": {
+      "available": "",
+      "half": 23
+    },
+    "7": {
+      "available": "",
+      "half": 19
+    },
+    "8": {
+      "available": "",
+      "half": 18
+    },
+    "9": {
+      "available": "",
+      "half": 17
+    },
+    "10": {
+      "available": "",
+      "half": 17
+    },
+    "11": {
+      "available": "",
+      "half": 17
+    },
+    "12": {
+      "available": "",
+      "half": 27
+    }
+  }
+}
