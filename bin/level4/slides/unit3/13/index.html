@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../../../assets/css/general.css">
+</head>
+<body class="app s-sandy">
+<div class="overlay"></div>
+<div class="content">
+    <div class="color-pallete">
+        <div class="color red" data-color="red"></div>
+        <div class="color orange" data-color="orange"></div>
+        <div class="color yellow" data-color="yellow"></div>
+        <div class="color green" data-color="green"></div>
+        <div class="color blue" data-color="blue"></div>
+        <div class="color black" data-color="black"></div>
+        <div class="color white" data-color="white"></div>
+    </div>
+    <div class="drawer-elem drawer-elem-second noselect">
+        <object type='image/svg+xml' data='svg/1.svg' class='icon'></object>
+        <div class="drawer-canvas">
+            <div class="clear-button">Clear</div>
+            <canvas class="drawer" id="drawer1"></canvas>
+        </div>
+    </div>
+    <div class="drawer-elem drawer-elem-second noselect">
+        <object type='image/svg+xml' data='svg/2.svg' class='icon'></object>
+        <div class="drawer-canvas">
+            <div class="clear-button">Clear</div>
+            <canvas class="drawer" id="drawer2"></canvas>
+        </div>
+    </div>
+</div>
+<div class="slides-navigation">
+    <div class="slides-navigation__item button " data-action="1">1</div>
+    <div class="slides-navigation__item button " data-action="2">2</div>
+    <div class="slides-navigation__item button " data-action="3">3</div>
+    <div class="slides-navigation__item next-slide">></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src='./script.js'></script>
+<script src="../../../../../assets/js/general.js"></script>
+</body>
+</html>

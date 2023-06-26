@@ -1,0 +1,19 @@
+.controls {
+    left: -150px !important;
+}
+
+.ballScore1 {
+    position: absolute;
+    bottom: 20%;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}
+
+.ballScore2 {
+    position: absolute;
+    bottom: 20%;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}

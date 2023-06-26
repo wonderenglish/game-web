@@ -1,0 +1,11 @@
+.controls {
+    left : -150px !important;
+}
+
+.table__elem object {
+    width: 100% !important;
+    height: unset !important;
+    margin: 0 auto !important;
+    vertical-align: middle !important;
+    margin-top: 10% !important;
+}

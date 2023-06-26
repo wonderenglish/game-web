@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../../../assets/css/general.css">
+</head>
+<body class="app">
+<div class="overlay"></div>
+<div class="content">
+    <input type="hidden" id="ball1" data-state="0">
+    <input type="hidden" id="ball2" data-state="0">
+    <div class="table">
+        <div class="row full">
+            <div class="table__elem first svg-bg ">
+                <object type='image/svg+xml'  data='svg/1.svg' id='svgelem' class='icon'></object>
+                <div class="ballScore1">0</div>
+                <div class="ballScore2">0</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="slides-navigation">
+    <div class="slides-navigation__item button " data-action="1">i</div>
+    <div class="slides-navigation__item button replay" data-action="2">R</div>
+    <div class="slides-navigation__item next-slide">></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src='./script.js'></script>
+<script src="../../../../../assets/js/general.js"></script>
+</body>
+</html>

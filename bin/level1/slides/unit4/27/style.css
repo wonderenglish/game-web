@@ -1,0 +1,20 @@
+
+img.pic1 {
+    transform: rotate(-5deg);
+}
+
+img.pic2 {
+    transform: rotate(10deg);
+}
+
+.table__elem img + img {
+    margin: 0 100px;
+}
+
+
+.table__elem object {
+    height: auto !important;
+    margin-top: 6% !important;
+    width: 110% !important;
+}
+

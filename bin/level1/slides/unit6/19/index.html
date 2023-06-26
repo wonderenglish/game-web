@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>The Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../../../../assets/css/general.css">
+</head>
+<body class="app s-purple">
+<div class="overlay"></div>
+<div class="content">
+    <input type="hidden" id="question" data-id="">
+    <div class="table">
+       <div class="phonics svg-bg">
+           <div class="letter">
+                <div data-id="1" class="letter__first"><img src="img/D.png" class=""></div>
+           </div>
+           <div class="pictures">
+               <div data-id="2" class="picture__first"><img src="img/dog.jpg" class="pic1"></div>
+               <div data-id="3" class="picture__second"><img src="img/donut.jpg" class="pic2"></div>
+           </div>
+       </div>
+    </div>
+</div>
+<div class="slides-navigation">
+    <div class="slides-navigation__item button" data-action="1">i</div>
+    <div class="slides-navigation__item button" data-action="2">1</div>
+    <div class="slides-navigation__item button" data-action="3">2</div>
+    <div class="slides-navigation__item button" data-action="4">3</div>
+    <div class="slides-navigation__item next-slide">→</div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src='./script.js'></script>
+<script src="../../../../../assets/js/general.js"></script>
+</body>
+</html>

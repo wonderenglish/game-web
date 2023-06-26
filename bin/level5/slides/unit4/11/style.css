@@ -1,0 +1,16 @@
+
+.ballScore1 {
+    position: absolute;
+    top: 27.5%;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}
+
+.ballScore2 {
+    position: absolute;
+    top: 27.5%;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}

@@ -1,0 +1,28 @@
+
+.ballScore1 {
+    position: absolute;
+    top: 27.5%;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}
+
+.ballScore2 {
+    position: absolute;
+    top: 27.5%;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}
+
+* { transition: all .3s; pointer-events: bounding-box;}
+#A11, #A12, #A13 , #A14  { opacity: 0; transition: all .3s;  }
+#A21, #A22, #A23 , #A24  { opacity: 0; transition: all .3s; }
+#A31, #A32, #A33 , #A34  { opacity: 0; transition: all .3s; }
+#A41, #A42, #A43 , #A44  { opacity: 0; transition: all .3s;  }
+#A11, #A12, #A13, #A14,
+#A21, #A22, #A23, #A24,
+#A31, #A32, #A33, #A34,
+#A41, #A42 { transition: all .3s;}
+
+.act { opacity: 1 !important; transition: all .3s}
