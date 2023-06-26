@@ -1,0 +1,38 @@
+.ballScore1 {
+    position: absolute;
+    top: 51.5%;
+    left: 60px;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}
+
+.ballScore2 {
+    position: absolute;
+    top: 51.5%;
+    right: 60px;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px 45px;
+}
+
+.colorpicker {
+    position: absolute;
+    top: 0;
+    left: 30%;
+    display: flex;
+    z-index: 10;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    border: 1px solid;
+}
+.brown { background: brown}
+.purple { background: purple }
+.yellow { background: yellow }
+.blue { background: blue }
+.green { background: green}
+.red { background: red}
+.orange { background: orange}

@@ -1,0 +1,16 @@
+
+.table__elem {
+    display: inline-block;
+    width: 50% !important;;
+    height: 100vh;
+    transition: all 2.5s;
+    border: 3px solid #0806a7;
+    box-sizing: border-box;
+}
+
+.table__elem object {
+    height: auto !important;
+    bottom: 7% !important;
+    position: absolute !important;
+    left: 0 !important;
+}
