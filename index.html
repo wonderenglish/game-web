@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>The Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body class="app">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="main-menu">
+      <div class="main-menu__background">
+        <video loop muted autoplay class="main-menu__background_file">
+          <source src="assets/img/bg.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="main-menu__container">
+        <div class="main-menu__title"><img src="assets/img/title.png"></div>
+        <div class="main-menu__levels">
+          <ul>
+            <li class="main-menu__levels_item disabled action" data-route="level1/slides/unit11/12" ><img src="assets/img/play.png"> </li>
+            <li class="main-menu__levels_item disabled showmenu"><img src="assets/img/levels.png"> </li>
+            <!--<li class="main-menu__levels_item disabled"><img src="assets/img/settings.png"> </li>-->
+            <li class="main-menu__levels_item disabled" onclick="window.close()"><img src="assets/img/quit.png">
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="levels">
+      <h2><span class="back__levels"> < </span>Select Level</h2>
+      <div data-l='1' class="level">L1</div>
+      <div data-l='2' class="level">L2</div>
+      <div data-l='3' class="level">L3</div>
+      <div data-l='4' class="level">L4</div>
+      <div data-l='5' class="level">L5</div>
+      <div data-l='6' class="level disabled">L6</div>
+      <div data-l='7' class="level disabled">L7</div>
+      <div data-l='8' class="level disabled">L8</div>
+      <div data-l='9' class="level disabled">L9</div>
+      <div data-l='10' class="level disabled">L10</div>
+      <div data-l='11' class="level disabled">L11</div>
+      <div data-l='12' class="level disabled">L12</div>
+    </div>
+    <div class="units">
+      <h2><span class="back__units"> < </span>Select Unit</h2>
+      <div class="unit__holder">
+      </div>
+    </div>
+  </div>
+  <div class="slides-navigation">
+
+  </div>
+
+  <input type="hidden" id="route">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src='./assets/js/script.js'></script>
+  </body>
+</html>
