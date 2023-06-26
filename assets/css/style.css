@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Roboto-Black; /* Имя шрифта */
+    src: url(../fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Roboto-Bold; /* Имя шрифта */
+    src: url(../fonts/Roboto-Bold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Roboto-Light; /* Имя шрифта */
+    src: url(../fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Roboto-Medium; /* Имя шрифта */
+    src: url(../fonts/Roboto-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: Roboto-Regular; /* Имя шрифта */
+    src: url(../fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+html {
+    background: #000000;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto-Regular;
+}
+
+.overlay {
+    height: 100vh;
+    width: 100vw;
+    background: #000;
+    transition: all 1s;
+    position: absolute;
+    opacity: 1;
+    z-index: 200;
+}
+
+.overlay.hide {
+    opacity: 0;
+}
+
+.main-menu {
+    z-index: 2;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.main-menu__background {
+    z-index: -2;
+    height: 100vh;
+    position: absolute;
+    width: 100%;
+}
+
+.main-menu__background_file {
+    position: absolute;
+    right: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.main-menu__container {
+    width: 70vh;
+    margin: 0 auto;
+}
+
+.main-menu__title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    transform: translate(0, -250px);
+    transition: all 1s;
+}
+
+.main-menu__title img {
+    width: 100%;
+}
+
+.main-menu__title.reveal {
+    transform: translate(0, 50px);
+}
+
+.main-menu__levels {
+    margin-top: 10vh;
+}
+
+.main-menu__levels ul {
+    padding: 0;
+    margin: 0;
+}
+
+.main-menu__levels_item {
+    text-align: center;
+    margin: 30px 0;
+    display: block;
+    cursor: pointer;
+    opacity: 0;
+    transform: translate(-50px, 0);
+    transition: all 1s;
+}
+
+.main-menu__levels_item.active {
+    opacity: 1;
+    transform: translate(0px, 0);
+}
+
+.levels h2 {
+    filter: drop-shadow(2px 4px 4px #333);
+    color: #fff;
+}
+
+.levels {
+    width: 50vw;
+    margin: 0 auto;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    font-size: 36px;
+    z-index: 90;
+    display: none;
+    opacity: 0;
+    transition: all .5s;
+    text-align: center;
+}
+
+.levels.active {
+    opacity: 1;
+}
+
+.level {
+    display: inline-block;
+    padding: 20px;
+    background: #FFC107;
+    color: #fff;
+    border-radius: 300px;
+    font-size: 24px;
+    width: 50px;
+    margin: 30px;
+    box-shadow: 0px 4px 2px 3px #FF9800;
+}
+
+.level.disabled {
+    background: #afafaf !important;
+    box-shadow: 0px 4px 2px 3px #666 !important;
+}
+
+.units h2 {
+    filter: drop-shadow(2px 4px 4px #333);
+    color: #fff;
+}
+
+.units {
+    width: 50vw;
+    margin: 0 auto;
+    position: absolute;
+    top: 30vh;
+    left: 0;
+    right: 0;
+    z-index: 90;
+    display: none;
+    opacity: 0;
+    transition: all .5s;
+    font-size: 36px;
+    text-align: center;
+}
+
+.units.active {
+    opacity: 1;
+}
+
+.unit {
+    display: inline-block;
+    padding: 20px;
+    background: #FFC107;
+    color: #fff;
+    border-radius: 300px;
+    width: 50px;
+    margin: 30px;
+    font-size: 24px;
+    box-shadow: 0px 4px 2px 3px #FF9800;
+}
+
+.unit.demo {
+    text-align: center;
+    font-size: 19px;
+    line-height: 27px;
+}
+
+.back__levels, .back__units {
+    position: relative;
+    left: -50px;
+}
+
+.tmdis {
+    display: none;
+}
